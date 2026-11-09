@@ -1,0 +1,11 @@
+model,routing_acc_pct,agrees_with_static_pct
+fc_arx_da,59.1,82.2
+static,58.9,100.0
+fc_hgb_da_rolling_12m_shap_all,56.6,61.5
+fc_hgb_da_rolling_12m_shap_p90,56.5,63.9
+fc_hgb_ext_da_rolling_12m_shap_all,56.1,61.2
+fc_hgb_ext_da_rolling_12m_shap_p90,55.4,64.1
+fc_hgb_da_static_2y_shap_p90,55.3,60.3
+fc_hgb_ext_da_static_2y_shap_all,53.7,61.0
+fc_hgb_ext_da_static_2y_shap_p90,53.3,57.1
+fc_hgb_da_static_2y_shap_all,52.1,54.3

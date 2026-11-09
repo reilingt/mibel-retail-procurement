@@ -1,0 +1,3 @@
+# Extra for the neural-net families (model_families with "dnn" or "lstm")
+-r ../requirements.txt
+tensorflow==2.21.0

@@ -1,0 +1,18 @@
+model,runtime_s,n_samples_train,n_features,n_models,epochs_or_iter,n_retrains
+ARX,0.19,17518,11,24,closed-form OLS (24 hourly LR),
+fc_hgb_da_static_2y_shap_p90,1.33,17518,32,,300 iterations,1
+fc_hgb_da_static_2y_shap_all,2.16,17518,72,,300 iterations,1
+fc_hgb_da_rolling_12m_shap_p90,43.76,8759,32,,300 iterations · retrain every 7d,53
+fc_hgb_da_rolling_12m_shap_all,70.85,8759,72,,300 iterations · retrain every 7d,53
+fc_hgb_ext_da_static_2y_shap_p90,7.51,17518,318,,300 iterations,1
+fc_hgb_ext_da_static_2y_shap_all,8.28,17518,358,,300 iterations,1
+fc_hgb_ext_da_rolling_12m_shap_p90,221.94,8759,318,,300 iterations · retrain every 7d,53
+fc_hgb_ext_da_rolling_12m_shap_all,248.22,8759,358,,300 iterations · retrain every 7d,53
+fc_hgb_id_static_2y_shap_p90,1.08,17518,32,,300 iterations,1
+fc_hgb_id_static_2y_shap_all,1.77,17518,72,,300 iterations,1
+fc_hgb_id_rolling_12m_shap_p90,42.08,8759,32,,300 iterations · retrain every 7d,53
+fc_hgb_id_rolling_12m_shap_all,68.02,8759,72,,300 iterations · retrain every 7d,53
+fc_hgb_ext_id_static_2y_shap_p90,6.64,17518,318,,300 iterations,1
+fc_hgb_ext_id_static_2y_shap_all,7.55,17518,358,,300 iterations,1
+fc_hgb_ext_id_rolling_12m_shap_p90,216.1,8759,318,,300 iterations · retrain every 7d,53
+fc_hgb_ext_id_rolling_12m_shap_all,234.43,8759,358,,300 iterations · retrain every 7d,53

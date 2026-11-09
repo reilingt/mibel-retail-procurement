@@ -1,0 +1,10 @@
+model,mae,rmse,smape,mape,r2,n
+fc_hgb_da_rolling_12m_shap_all,14.98,19.93,53.31,85.13,0.8088,8783
+fc_hgb_ext_da_rolling_12m_shap_all,15.05,20.07,53.58,84.89,0.8061,8783
+fc_hgb_ext_da_rolling_12m_shap_p90,15.11,20.18,53.71,86.3,0.8039,8783
+fc_hgb_da_rolling_12m_shap_p90,15.14,20.01,53.46,88.07,0.8072,8783
+fc_arx_da,17.29,23.54,56.08,104.43,0.7331,8783
+fc_hgb_ext_da_static_2y_shap_p90,18.39,24.3,56.89,130.96,0.7156,8783
+fc_hgb_da_static_2y_shap_all,18.8,24.47,57.52,140.27,0.7117,8783
+fc_hgb_da_static_2y_shap_p90,19.05,24.85,57.81,142.4,0.7026,8783
+fc_hgb_ext_da_static_2y_shap_all,19.23,25.27,57.88,145.43,0.6925,8783

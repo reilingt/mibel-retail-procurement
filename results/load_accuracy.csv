@@ -1,0 +1,12 @@
+model,mae_mw,rmse_mw,mape_pct
+hgb_ext_rolling_12m_shap_all,118.9,162.1,2.01
+hgb_rolling_12m_shap_all,119.7,163.4,2.03
+hgb_ext_rolling_12m_shap_p90,120.2,163.2,2.03
+hgb_rolling_12m_shap_p90,121.0,163.9,2.05
+hgb_ext_static_2y_shap_all,124.8,168.5,2.1
+hgb_static_2y_shap_all,125.7,169.1,2.12
+hgb_ext_static_2y_shap_p90,126.2,171.8,2.12
+hgb_static_2y_shap_p90,132.9,179.2,2.24
+TSO,190.8,260.1,3.33
+ARX,221.2,312.4,3.71
+profile,378.5,531.1,6.1

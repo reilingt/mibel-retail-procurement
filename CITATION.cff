@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "Algorithmic procurement for an electricity retailer in MIBEL"
+abstract: >-
+  Code for an MSc Business Analytics thesis (Católica Lisbon School of Business and
+  Economics). Load and price forecasting, day-ahead/intraday market routing, procurement
+  cost simulation and a rule-based battery add-on for a Portuguese electricity retailer.
+authors:
+  - family-names: Reiling
+    given-names: Tobias Max
+version: 1.0.0
+date-released: 2026-11-07
+license: MIT
+keywords:
+  - electricity markets
+  - MIBEL
+  - forecasting
+  - time series
+  - procurement

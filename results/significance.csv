@@ -1,0 +1,11 @@
+scenario,test,a,b,load_model,comparison,diff,ci_low,ci_high,p_value,n_days,unit
+zero,cost block bootstrap,fc_hgb_ext_da_rolling_12m_shap_all,fc_arx_da,hgb_ext_static_2y_shap_all,best other price model minus best,0.189,0.01,0.407,0.039,366,EUR/MWh
+zero,cost block bootstrap,static,fc_arx_da,hgb_ext_static_2y_shap_all,static hourly rule minus best,0.003,-0.11,0.136,0.83,366,EUR/MWh
+zero,cost block bootstrap,naive_all_da,fc_arx_da,hgb_ext_static_2y_shap_all,"naive, all day-ahead minus best",1.267,0.907,1.711,0.0,366,EUR/MWh
+sur70,cost block bootstrap,fc_hgb_ext_da_rolling_12m_shap_all,fc_arx_da,hgb_ext_static_2y_shap_all,best other price model minus best,0.189,0.01,0.407,0.039,366,EUR/MWh
+sur70,cost block bootstrap,static,fc_arx_da,hgb_ext_static_2y_shap_all,static hourly rule minus best,0.003,-0.11,0.136,0.83,366,EUR/MWh
+sur70,cost block bootstrap,naive_all_da,fc_arx_da,hgb_ext_static_2y_shap_all,"naive, all day-ahead minus best",0.909,0.598,1.268,0.0,366,EUR/MWh
+sur90,cost block bootstrap,fc_hgb_ext_da_rolling_12m_shap_all,fc_arx_da,profile,best other price model minus best,0.189,0.012,0.408,0.037,366,EUR/MWh
+sur90,cost block bootstrap,static,fc_arx_da,profile,static hourly rule minus best,0.011,-0.099,0.144,0.729,366,EUR/MWh
+sur90,cost block bootstrap,naive_all_da,fc_arx_da,profile,"naive, all day-ahead minus best",0.823,0.502,1.182,0.0,366,EUR/MWh
+all,Diebold-Mariano (abs error),fc_arx_da,fc_hgb_da_rolling_12m_shap_all,,ARX MAE minus rival MAE,2.314,,,0.0,366,EUR/MWh (DM stat 4.10)

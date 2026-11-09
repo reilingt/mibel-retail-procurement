@@ -1,0 +1,8 @@
+# Core pipeline (default config: Profile, ARX, HGB, HGB-ext). Tested with Python 3.13.
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+holidays==0.107
+shap==0.54.1
+tqdm==4.70.1
